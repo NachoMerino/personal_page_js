@@ -7,7 +7,6 @@ $(document).ready(function() {
     $('#aboutme').css({ "color": buttonColor });
     whereAmI = '#myname';
 
-
     $('#aboutme').on('click', function(e) {
         whereAmI = '#aboutme1';
         $(`${whereAmI}`).show('slow');
