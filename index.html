@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Devugees: Introduction to JQuery</title>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script type="text/javascript">
+    document.write('<link rel="stylesheet" type="text/css" href="style.css?' + Math.random() + '" />');
+    </script>
+</head>
+
+<body>
+    <!-- TASK:
+
+        Write a page about yourself.
+
+        - Does not need to be responsive
+        - When the document is loaded, all your content is slowly faded in
+        - Include a header, a content and a footer
+        - The navigation is located in the header and consists of three links
+          "About me", "My favourite city", "My favourite songs"
+          whereas the default behaviour is prevented and replaced by your own click events instead
+        - All click events for the links change your main content accordingly
+            - how you implement it, is up to you
+        - When clicking a navigation link, your content changes with a JQuery animation of your choice
+
+        "About me" -> 1 or 2 paragraphs about yourself
+        "My favourite city" -> 1 paragraph about your city, including a nice picture
+        "My favourite songs" -> Embed 2 or 3 Songs from Youtube in your page
+                                (Google how to do that)
+
+        - when the user presses the left arrow key, he will go back in navigation. i.e. if he is at "My favourite city", he will navigate to "About me"
+        - when the user presses the right arrow key, he will go further in navigation, i.e. if he is at "My favourite city", he will navigate to "My favourite songs"
+    -->
+    <header>
+        <nav>
+            <button class="buttons" id="aboutme">About Me</button>
+            <button class="buttons" id="favcity">My favourite city</button>
+            <button class="buttons" id="favsong">My favourite songs</button>
+            <button class="buttons" id="cotactg">Contact Me</button>
+        </nav>
+    </header>
+    <main>
+        <div id="favcity1">
+            <p>
+                <h1>SANTANDER</h1>
+                <p>The port city of Santander is the capital of the autonomous community and historical region of Cantabria situated on the north coast of Spain. Located east of Gijón and west of Bilbao, the city has a population of 178,465 (2013). Santander houses the headquarters of multinational bank Banco Santander, and is the location of the founding of the namesake company.</p>
+                <br>
+                <img src="https://www.hola.com/imagenes//viajes/2017012090978/ciudad-santanDer-cantabria-imprescindible/0-417-572/Santander-panoramica-t.jpg"></p>
+        </div>
+        <div id="aboutme1">
+            <h1>That's Me</h1>
+            <p>I am Nacho Merino, I was born in Santander (Spain), since 3 years I am living and working in Berlin (Germany). Right now I am studiying JQuery to be a Web Developer</p>
+            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="ignacio-merino-arnaiz-998a2739"><a class="LI-simple-link" target="_blank" href='https://de.linkedin.com/in/ignacio-merino-arnaiz-998a2739?trk=profile-badge'>Ignacio Merino Arnaiz Linkedin Profile</a></div>
+        </div>
+        <div id="favsong1">
+            <p>
+                <h3>Daft Punk - Television Rules the Nation / Crescendolls</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Hg3G1E2tNCA" frameborder="0" allowfullscreen></iframe>
+            </p>
+            <p>
+                <h3>Daft Punk - Too Long / Steam Machine</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l4SFUztLWOA" frameborder="0" allowfullscreen></iframe>
+            </p>
+        </div>
+        <div id="cotactg1">
+            <h1>Contact Me</h1>
+            <form class="clearfix" action="http://dev.datariot.de/fbw4/form-action.php" method="post" required>
+                <label for="realname">Your name</label>
+                <input type="text" name="realname" id="realname" placeholder="e.g. John Doe" required />
+                <label for="email">E-Mail address</label>
+                <input type="email" name="email" id="email" required/>
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" required> </textarea>
+                <div id="buttons">
+                    <button id="reset" type="reset">RESET</button>
+                    <button id="submit" type="submit">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer id="myfooter">
+        <p>Proudly developed by <a target="_blank" href="https://github.com/NachoMerino">NachoMerino</a>.</p>
+    </footer>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+    document.write('<scr' + 'ipt src="mainORI.js?' + Math.random() + '" type="text/javascript"></scr' + 'ipt>');
+    </script>
+</body>
+
+</html>

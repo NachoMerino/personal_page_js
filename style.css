@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    text-shadow: 1px 1px #000;
+    font-weight: bold;
+}
+
+main {
+    background-color: rgba(192, 192, 192, 0.3);
+    border: 3px solid lightblue;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0 auto;
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    //flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+button {
+    overflow: hidden;
+    background-color: orange;
+    border: 1px solid lightblue;
+    border-radius: 1em;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 1em;
+    margin: 1em .3em;
+    margin-bottom: 1em;
+    box-shadow: 4px 4px 5px #ccc;
+}
+
+iframe {
+    box-shadow: 7px 6px 5px #ccc;
+}
+
+.LI-profile-badge {
+    display: flex;
+    justify-content: center;
+}
+
+#myfooter {
+    position: fixed;
+    bottom: 0%;
+    right: 41%;
+}
+
+////
+h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    border-color: lightblue;
+}
+
+form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 65vh;
+    margin: 0 auto;
+    border: 3px solid lightblue;
+    background-color: white;
+    border-radius: 1em;
+}
+
+label,
+select,
+#realname,
+#email,
+#comment {
+    padding: 1em;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+}
+
+#realname,
+#email,
+#comment {
+    border: 3px solid lightblue;
+    border-radius: 1em;
+    padding: 1%;
+}
+
+input,
+select,
+div {
+    margin-bottom: 2%;
+}
+
+select {
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#comment {
+    height: 200px;
+}
+
+#reset,
+#submit {
+    width: 45%;
+    text-shadow: 1px 1px #000;
+    margin-left: 3%;
+}
+#buttons{
+  width: 95%;
+  margin: 0 auto;
+}
+#reset {
+    background-color: lightgray;
+    color: darkgray;
+    text-shadow: none;
+    border-color: #838383;
+}
