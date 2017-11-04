@@ -41,9 +41,7 @@ $(document).ready(function() {
             $(`${whereAmI}`).hide('slow');
             $(`${whereAmI}`).next().show('slow');
             whereAmI = $(`${whereAmI}`).next()[0].id;
-            console.log(whereAmI);
             whereAmI = '#' + whereAmI;
-            console.log(whereAmI);
             if (whereAmI == '#final') {
                 $(`${whereAmI}`).hide('slow');
                 whereAmI = '#aboutme1';
@@ -53,9 +51,7 @@ $(document).ready(function() {
             $(`${whereAmI}`).hide('slow');
             $(`${whereAmI}`).prev().show('slow');
             whereAmI = $(`${whereAmI}`).prev()[0].id;
-            console.log(whereAmI);
             whereAmI = '#' + whereAmI;
-            console.log(whereAmI);
             if (whereAmI == '#begin') {
                 $(`${whereAmI}`).hide('slow');
                 whereAmI = '#cotactg1';
