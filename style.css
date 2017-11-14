@@ -1,4 +1,8 @@
-body {
+body,
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: normal;
+    font-style: normal;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -22,7 +26,6 @@ main {
     width: 50%;
     display: flex;
     justify-content: center;
-    //flex-direction: column;
 }
 
 img {
@@ -37,14 +40,11 @@ nav {
 }
 
 button {
-    overflow: hidden;
     background-color: orange;
     border: 1px solid lightblue;
     border-radius: 1em;
     color: inherit;
     font: inherit;
-    line-height: normal;
-    overflow: visible;
     padding: 1em;
     margin: 1em .3em;
     margin-bottom: 1em;
@@ -55,22 +55,14 @@ iframe {
     box-shadow: 7px 6px 5px #ccc;
 }
 
-.LI-profile-badge {
-    display: flex;
-    justify-content: center;
-}
-
 #myfooter {
     position: fixed;
-    bottom: 0%;
+    bottom: -2%;
     right: 41%;
 }
 
 ////
 h1 {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-weight: normal;
-    font-style: normal;
     text-align: center;
     color: white;
     border-color: lightblue;
@@ -132,10 +124,12 @@ select {
     text-shadow: 1px 1px #000;
     margin-left: 3%;
 }
-#buttons{
-  width: 95%;
-  margin: 0 auto;
+
+#buttons {
+    width: 95%;
+    margin: 0 auto;
 }
+
 #reset {
     background-color: lightgray;
     color: darkgray;
